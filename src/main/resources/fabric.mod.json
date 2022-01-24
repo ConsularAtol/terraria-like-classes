@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "classes",
+  "version": "${version}",
+
+  "name": "Terraria-Like Classes",
+  "description": "Assigns weapons to classes. And adds more to fit new classes.",
+  "authors": [
+    "Consular"
+  ],
+  "contact": {
+    
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/classes/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "consular.classes.Classes"
+    ]
+  },
+  "mixins": [
+    "classes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
